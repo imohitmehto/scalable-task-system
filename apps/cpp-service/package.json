@@ -1,0 +1,8 @@
+{
+  "name": "cpp-service",
+  "scripts": {
+    "build": "cmake -S . -B build && cmake --build build",
+    "start": "./build/service",
+    "dev": "pnpm run build && pnpm run start"
+  }
+}
